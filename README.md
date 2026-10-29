@@ -3,7 +3,7 @@ Tic-Tac-Toe vs. the Computer
 
 A terminal tic-tac-toe game written in C for COMP120 Project 1.
 
-How to Play
+## How to Play
 
 First, you play as O and go first. Then The computer plays as X.
 
@@ -17,6 +17,8 @@ If the board is full and nobody wins, the game is a draw.
 
 After each game, enter y to play again or q to quit.
 
+## Compile and Run
+
 To play you have to Compile with GCC using:
 
 gcc -std=c11 -Wall -Wextra -pedantic tic_tac_toe.c -o tic_tac_toe 
@@ -25,6 +27,7 @@ After that run in terminal then Windows PowerShell:
 
 .\tic_tac_toe.exe
 
+## Program Structure
 
 
 Program Structure is a board is stored in a 1-dimensional char array with nine elements.
